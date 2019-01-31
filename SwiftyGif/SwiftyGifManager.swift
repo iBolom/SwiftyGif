@@ -61,6 +61,7 @@ open class SwiftyGifManager {
         while !displayViews.isEmpty {
             displayViews.removeFirst().clear()
         }
+        timer?.invalidate()
     }
     
     /**
