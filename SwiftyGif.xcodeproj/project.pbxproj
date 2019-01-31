@@ -242,7 +242,7 @@
 					};
 					FA29E9311CA9340E00E579D5 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = ZAMD7Q9KYY;
+						DevelopmentTeam = R6SC37N4S4;
 						LastSwiftMigration = 1000;
 					};
 				};
@@ -504,11 +504,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZAMD7Q9KYY;
+				DEVELOPMENT_TEAM = R6SC37N4S4;
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftyGifExample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexiscreuzot.SwiftyGif;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bolo.SwiftyGif;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -519,11 +519,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZAMD7Q9KYY;
+				DEVELOPMENT_TEAM = R6SC37N4S4;
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftyGifExample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexiscreuzot.SwiftyGif;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bolo.SwiftyGif;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
