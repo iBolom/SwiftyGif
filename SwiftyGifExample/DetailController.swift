@@ -17,7 +17,7 @@ class DetailController: UIViewController {
     @IBOutlet private weak var rewindButton: UIButton!
 
     var gifName: String?
-    let gifManager = SwiftyGifManager(memoryLimit:60)
+    let gifManager = SwiftyGifManager(memoryLimit: 60)
     var _rewindTimer: Timer?
     var _forwardTimer: Timer?
 
@@ -25,8 +25,11 @@ class DetailController: UIViewController {
         super.viewDidLoad()
         
         if let imgName = self.gifName {
-            let gifImage = UIImage(gifName: imgName)
-            self.imageView.setGifImage(gifImage, manager: gifManager)
+            if let image = try? UIImage(imageName: imgName) {
+                self.imageView.setImage(image, manager: gifManager)
+            } else {
+                self.imageView.clear()
+            }
         }
 
         // Gestures for gif control
